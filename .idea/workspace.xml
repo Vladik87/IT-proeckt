@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a01e655-1961-4c48-a87f-0e7aaff84ac8" name="Changes" comment="Srulet">
+      <change afterPath="$PROJECT_DIR$/../HTML/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/1/2/12bf52c5b60772bbf201ffb05d6bb178c1bf9a28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/3/2/32a302df96c015f858713b54932d6a4cb6d3a42f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/8/a/8aa228d6c778ccc72c52e87c26ff29e58a820b61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/c/4/c4005d532462ad55f21c3db3a482283a96a88498" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/d/a/dae13fd6f331d1c91ab58b06e81d05cb8958bfb1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/e/9/e9b0acb935a57febf91eee98bba0eedd1c156453" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/e/d/edb02342f04a9a172c8688b0923debaf257809b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/f/a/fa343e38d93aa0d46d1a993565d0ca98d96283b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/TOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/extend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/doc/usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/img/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/js/vendor/modernizr-3.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/tile-wide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/0/0/00a0a98e77662f269a6e0f4e6f2f323c3f643cf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/3/6/36b05e4786dedd08fbb97806f3f5b70822b2b8a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/4/a/4a32a399de8114d40df1c79830d61da941fc9ba9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/8/2/828a180fdcc86e60dadc5d89c135a0bf6580a837" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/a/7/a792a6dffef378675d30b9afebd898cf94b01018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/d/4/d4389df4e32f5b55de01ccc377ceb3484c463998" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/TS1/target/classes/service/AccounService$AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Account/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Account/.idea/sonarlint/issuestore/4/a/4a32a399de8114d40df1c79830d61da941fc9ba9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Account/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Account/.idea/sonarlint/issuestore/a/7/a792a6dffef378675d30b9afebd898cf94b01018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Account/src/test/java/CustomerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Account/target/test-classes/CustomerServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet.rar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DfDaK02PHSkUS65UnENua0fFTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Enteprais\web\src\main\webapp\WEB-INF" />
+      <recent name="D:\Enteprais\web\src\main\java\com\acedemy\controler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Enteprais\web\src\main\webapp" />
+      <recent name="D:\Enteprais\web\src\main\java\com\acedemy\controler" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="86ec7ff4-217a-4e97-b381-f1dc1537e9c8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63227" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a01e655-1961-4c48-a87f-0e7aaff84ac8" name="Changes" comment="" />
+      <created>1661081316795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661081316795</updated>
+      <workItem from="1661081319274" duration="11544000" />
+      <workItem from="1661182340545" duration="360000" />
+      <workItem from="1661182725407" duration="292000" />
+      <workItem from="1661183041951" duration="10822000" />
+      <workItem from="1661441065704" duration="8882000" />
+      <workItem from="1661584883691" duration="649000" />
+      <workItem from="1661956771985" duration="6664000" />
+      <workItem from="1662034073693" duration="1048000" />
+      <workItem from="1662035184200" duration="8039000" />
+      <workItem from="1662044081052" duration="858000" />
+      <workItem from="1662045010763" duration="2074000" />
+      <workItem from="1662047274711" duration="3552000" />
+      <workItem from="1662050886743" duration="6359000" />
+      <workItem from="1662187930087" duration="5323000" />
+      <workItem from="1662195521233" duration="23000" />
+      <workItem from="1662195805884" duration="12000" />
+      <workItem from="1662291910301" duration="130000" />
+      <workItem from="1662292280905" duration="375000" />
+      <workItem from="1662293191750" duration="1394000" />
+    </task>
+    <task id="LOCAL-00001" summary="Srulet">
+      <created>1662191788203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662191788203</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Srulet">
+      <created>1662293993447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662293993447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Srulet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Srulet" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
