@@ -15,6 +15,15 @@
     <servlet-class>com.acedemy.controler.AccountsSrulet</servlet-class>
   </servlet>
 
+  <filter>
+    <filter-name>autFilter</filter-name>
+    <filter-class>com.filter.AutFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>autFilter</filter-name>
+    <url-pattern>/account</url-pattern>
+  </filter-mapping>
 <servlet-mapping>
   <servlet-name>accounts</servlet-name>
   <url-pattern>/accounts</url-pattern>
@@ -22,7 +31,7 @@
 
   <servlet-mapping>
     <servlet-name>LoginSrulet</servlet-name>
-    <url-pattern>/LoginSrulet</url-pattern>
+    <url-pattern>/login</url-pattern>
   </servlet-mapping>
 
 

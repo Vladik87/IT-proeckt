@@ -1,5 +1,7 @@
 package com.acedemy.controler;
 
+import com.acedemmy.service.SecurityService;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,10 +18,10 @@ public class LoginSrulet extends HttpServlet {
         String login = req.getParameter("login");
         String password = req.getParameter("password");
         PrintWriter writer = resp.getWriter();
-
+        SecurityService securityService = new SecurityService();
         writer.println("<html>");
         writer.println("<body>");
-        if ( "vlad".equals(login) && "qwerty".equals(password) ) {
+        if ( securityService.checkIfUserLogged(req) && "vlad".equals(login) && "qwerty".equals(password) ) {
             writer.println("Hi" + login);
             HttpSession session = req.getSession();
             session.setAttribute("user", login);
@@ -35,15 +37,17 @@ public class LoginSrulet extends HttpServlet {
 
         String login = req.getParameter("login");
         String password = req.getParameter("password");
+        HttpSession session = req.getSession();
+        session.setAttribute("user", login);
+        SecurityService securityService = new SecurityService();
 
 
-        if ( "vlad".equals(login) && "qwerty".equals(password) ) {
+        if (securityService.checkIfUserLogged(req) || "vlad".equals(login) && "qwerty".equals(password) ) {
 
-            HttpSession session = req.getSession();
-            session.setAttribute("user", login);
+            req.getRequestDispatcher("/Vlad.jsp").forward(req,resp);
 
 
         }
-        req.getRequestDispatcher("/Vlad.jsp").forward(req,resp);
+
     }
 }

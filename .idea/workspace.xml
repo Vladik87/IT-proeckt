@@ -69,6 +69,22 @@
       <change afterPath="$PROJECT_DIR$/../Maven_Account/target/test-classes/CustomerServiceTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Task1.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../servlet.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/acedemmy/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filter/AutFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsSrulet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Enter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/acedemy/controler/AccountsSrulet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/acedemy/controler/LoginSrulet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/Enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Enter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/AccountsSrulet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/LoginSrulet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +104,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -259,7 +278,9 @@
       <workItem from="1662195805884" duration="12000" />
       <workItem from="1662291910301" duration="130000" />
       <workItem from="1662292280905" duration="375000" />
-      <workItem from="1662293191750" duration="1394000" />
+      <workItem from="1662293191750" duration="10063000" />
+      <workItem from="1662304105391" duration="765000" />
+      <workItem from="1662304897810" duration="3238000" />
     </task>
     <task id="LOCAL-00001" summary="Srulet">
       <created>1662191788203</created>
@@ -275,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662293993447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Srulet">
+      <created>1662294850796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662294850796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,8 +325,57 @@
     <MESSAGE value="Srulet" />
     <option name="LAST_COMMIT_MESSAGE" value="Srulet" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/filter/AutFilter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" line="41">
+        <watch expression="securityService" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web$Tomcat_9_0_65.ic" NAME="Tomcat 9.0.65 Coverage Results" MODIFIED="1662304809113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
