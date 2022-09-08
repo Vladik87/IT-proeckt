@@ -3,13 +3,14 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="web:war" />
+      <artifact name="web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a01e655-1961-4c48-a87f-0e7aaff84ac8" name="Changes" comment="Srulet">
+    <list default="true" id="8a01e655-1961-4c48-a87f-0e7aaff84ac8" name="Changes" comment="Srulet Add Filter">
       <change afterPath="$PROJECT_DIR$/../HTML/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HTML/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HTML/.gitignore" afterDir="false" />
@@ -69,22 +70,27 @@
       <change afterPath="$PROJECT_DIR$/../Maven_Account/target/test-classes/CustomerServiceTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Task1.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../servlet.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acedemmy/service/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filter/AutFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsSrulet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Enter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Pay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Vlad.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Vlad.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/acedemy/controler/AccountsSrulet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/acedemy/controler/LoginSrulet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/stailes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/stailes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/web.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/Enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Enter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/AccountsSrulet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/LoginSrulet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/Pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Pay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/Vlad.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Vlad.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +112,7 @@
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -141,12 +148,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -156,17 +166,27 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Enteprais\web\src\main\webapp" />
+      <recent name="D:\Enteprais\web\src\main\webapp\WEB-INF" />
+      <recent name="D:\Enteprais\web\src\main\webapp\view\html" />
+      <recent name="D:\Enteprais\web\src\main\webapp\view\jsp" />
       <recent name="D:\Enteprais\web\src\main\java\com\acedemy\controler" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" activateToolWindowBeforeRun="false" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/web_war" />
+            <option name="CONTEXT_PATH" value="/index.jsp" />
+          </settings>
+        </artifact>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -245,7 +265,85 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="web:war" />
+          <artifact name="web:war exploded" />
         </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5dd9fd91-b8ae-4bd9-a56e-18ae3facd5f4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54820" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -281,6 +379,9 @@
       <workItem from="1662293191750" duration="10063000" />
       <workItem from="1662304105391" duration="765000" />
       <workItem from="1662304897810" duration="3238000" />
+      <workItem from="1662485778089" duration="2955000" />
+      <workItem from="1662556157859" duration="668000" />
+      <workItem from="1662570535690" duration="5851000" />
     </task>
     <task id="LOCAL-00001" summary="Srulet">
       <created>1662191788203</created>
@@ -303,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662294850796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Srulet Add Filter">
+      <created>1662486219201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662486219201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +431,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Srulet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Srulet" />
+    <MESSAGE value="Srulet Add Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Srulet Add Filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -333,31 +442,6 @@
           <line>15</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -366,7 +450,7 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" line="41">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" line="41">
         <watch expression="securityService" language="JAVA" />
       </inline-watch>
     </watches-manager>
@@ -376,6 +460,6 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/web$Tomcat_9_0_65.ic" NAME="Tomcat 9.0.65 Coverage Results" MODIFIED="1662304809113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/web$Tomcat_9_0_65.ic" NAME="Tomcat 9.0.65 Coverage Results" MODIFIED="1662570726230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -11,9 +11,10 @@
     <title>Pay</title>
     <link rel="stylesheet" href="stailes.css">
 </head>
+
 <body>
 <meta charset="utf-8">
-<div style="text-align: center;">
+<div id="tab">
 <table class="tab">
     <tr><th>№п/п</th> <th>№ Счета</th> <th>Баланс</th></tr>
     <tr><th>1</th> <th>BY123446</th> <th>2355 руб</th></tr>

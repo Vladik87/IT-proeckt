@@ -6,13 +6,13 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
-    <servlet-name>LoginSrulet</servlet-name>
-    <servlet-class>com.acedemy.controler.LoginSrulet</servlet-class>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.acedemy.controler.LoginServlet</servlet-class>
   </servlet>
 
   <servlet>
     <servlet-name>accounts</servlet-name>
-    <servlet-class>com.acedemy.controler.AccountsSrulet</servlet-class>
+    <servlet-class>com.acedemy.controler.AccountsServlet</servlet-class>
   </servlet>
 
   <filter>
@@ -30,7 +30,7 @@
 </servlet-mapping>
 
   <servlet-mapping>
-    <servlet-name>LoginSrulet</servlet-name>
+    <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
 
