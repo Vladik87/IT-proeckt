@@ -1,56 +1,73 @@
-header{
+header {
     background-color: lightskyblue;
     border-radius: 10px;
-    text-align:  center;
+    text-align: center;
 }
-#Line{
+
+#Line {
     position: static;
     margin: 7px;
     padding: 10px;
-    border: 4px  black;
+    border: 4px black;
     background: #e1cc78;
-    text-align:  center;
+    text-align: center;
     margin: 120px;
     top: 100px;
+    border-radius: 5px;
 }
-#Line1{
+
+#Line1 {
     width: 100%;
     padding: 10px;
     color: coral;
+    border-radius: 5px;
 }
-#Line2{
+
+#Line2 {
     width: 100%;
     padding: 10px;
     color: coral;
+    border-radius: 5px;
 }
-#Line3{
+
+#Line3 {
     position: static;
     width: 100%;
     height: 30px;
     padding: 10px;
     color: coral;
+    border-radius: 5px;
 }
-#Line4{
+
+#Line4 {
     position: static;
     width: 100%;
     height: 30px;
     padding: 10px;
     color: coral;
+    border-radius: 5px;
 }
-#tab{
+
+#tab {
     width: 100%;
     border: 1px solid black;
+
+    border-radius: 5px;
 }
-tr{
+
+tr {
     border: 1px solid grey;
 }
-th{
+
+th {
     border: 1px solid grey;
 }
-#Go{
-    width: 100px;
-    height: 50px;
+
+#Go {
+    width: 200px;
+    height: 70px;
 }
-body{
-    background:#FAFAD2;
+
+body {
+    background: #FAFAD2;
 }

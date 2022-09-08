@@ -13,10 +13,11 @@ public class AutFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         SecurityService securityService = new SecurityService();
 
-        if(securityService.checkIfUserLogged(request)){
-        filterChain.doFilter(servletRequest, servletResponse);
-        }else {
+        if ( securityService.checkIfUserLogged(request) ) {
+            filterChain.doFilter(servletRequest, servletResponse);
+        } else {
 
-        } request.getRequestDispatcher("/Enter.html");
+        }
+        request.getRequestDispatcher("/Enter.html");
     }
 }

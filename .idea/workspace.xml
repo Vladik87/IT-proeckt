@@ -70,27 +70,27 @@
       <change afterPath="$PROJECT_DIR$/../Maven_Account/target/test-classes/CustomerServiceTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Task1.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../servlet.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginSrulet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemmy/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemmy/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/AccountsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/filter/AutFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filter/AutFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Accounts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Accounts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Enter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Pay.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Vlad.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Vlad.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/stailes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/stailes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/Accounts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Accounts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/Enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Enter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/Pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Pay.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/Vlad.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/Vlad.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/AccountsSrulet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/classes/com/acedemy/controler/LoginSrulet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/stailes.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/stailes.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +381,7 @@
       <workItem from="1662304897810" duration="3238000" />
       <workItem from="1662485778089" duration="2955000" />
       <workItem from="1662556157859" duration="668000" />
-      <workItem from="1662570535690" duration="5851000" />
+      <workItem from="1662570535690" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="Srulet">
       <created>1662191788203</created>
@@ -411,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662486219201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Srulet Add Filter">
+      <created>1662628451023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662628451023</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,22 +442,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Srulet Add Filter" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/filter/AutFilter.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" line="41">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/acedemy/controler/LoginServlet.java" line="42">
         <watch expression="securityService" language="JAVA" />
       </inline-watch>
     </watches-manager>

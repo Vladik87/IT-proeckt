@@ -32,21 +32,24 @@ public class LoginServlet extends HttpServlet {
         writer.println("</body>");
         writer.println("</html>");
     }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String login = req.getParameter("login");
         String password = req.getParameter("password");
-        HttpSession session = req.getSession();
-        session.setAttribute("user", login);
+
         SecurityService securityService = new SecurityService();
 
 
-        if (securityService.checkIfUserLogged(req) || "vlad".equals(login) && "qwerty".equals(password) ) {
+        if ( securityService.checkIfUserLogged(req) || "vlad".equals(login) && "qwerty".equals(password) ) {
+            HttpSession session = req.getSession();
+            session.setAttribute("user", login);
+            req.getRequestDispatcher("/Vlad.jsp").forward(req, resp);
 
-            req.getRequestDispatcher("/Vlad.jsp").forward(req,resp);
 
-
+        }else {
+            req.getRequestDispatcher("/Enter.html");
         }
 
     }

@@ -15,7 +15,7 @@ public class AccountsServlet extends HttpServlet {
         resp.setCharacterEncoding("utf-8");
         if ( securityService.checkIfUserLogged(req) ) {
 
-     req.getRequestDispatcher("/Accounts.jsp").forward(req, resp);
+            req.getRequestDispatcher("/Accounts.jsp").forward(req, resp);
         }
 
     }
